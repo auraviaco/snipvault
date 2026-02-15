@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # SnipVault
 
 SnipVault is a powerful local snippet manager for developers.
@@ -40,3 +41,7 @@ They are available across all projects.
 ## 🧠 Developed By
 
 Built with ❤️ by Auravia
+=======
+# snipvault
+SnipVault is a powerful global snippet manager for VS Code that lets developers save, organize, and instantly reuse code across all projects.
+>>>>>>> da1232b35cab6c9f966bdc0cbe2c96eb4adea467
