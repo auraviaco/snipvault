@@ -1,0 +1,97 @@
+{
+  "name": "snipvault",
+  "displayName": "SnipVault",
+  "description": "Powerful local snippet manager with tags, search, and preview.",
+  "version": "1.0.0",
+  "publisher": "auravia",
+  
+"repository": {
+  "type": "git",
+  "url": "https://github.com/auraviaco/snipvault"
+},
+  "icon": "media/icon.jpeg",
+
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+
+  "activationEvents": [
+    "onView:snipvaultSidebar",
+    "onCommand:auravia.saveSnippet"
+  ],
+
+  "main": "./out/extension.js",
+
+  "scripts": {
+    "build": "tsc -p ./",
+    "watch": "tsc -watch -p ./"
+  },
+
+  "categories": ["Other"],
+
+  "contributes": {
+    "commands": [
+      {
+        "command": "auravia.saveSnippet",
+        "title": "SnipVault: Save Snippet"
+      },
+      {
+        "command": "auravia.exportSnippets",
+        "title": "SnipVault: Export Snippets"
+      },
+      {
+        "command": "auravia.importSnippets",
+        "title": "SnipVault: Import Snippets"
+      },
+      {
+  "command": "auravia.deleteAllSnippets",
+  "title": "SnipVault: Delete All Snippets"
+},
+
+  {
+  "command": "auravia.insertSnippetPopup",
+  "title": "SnipVault: Insert Snippet"
+},
+{
+  "command": "auravia.deleteSnippetPopup",
+  "title": "SnipVault: Delete Snippet"
+}
+
+    ],
+    "keybindings": [
+      {
+      "command": "auravia.deleteSnippetPopup",
+    "key": "ctrl+shift+i",
+    "when": "editorTextFocus"
+      },
+      {
+  "command": "auravia.insertSnippetPopup",
+  "key": "ctrl+i",
+  "when": "editorTextFocus"
+},
+      {
+        "command": "auravia.saveSnippet",
+        "key": "ctrl+d",
+        "when": "editorTextFocus&& editorHasSelection"
+      }
+    ],
+    "viewsContainers": {
+      "activitybar": [
+        {
+          "id": "snipvault",
+          "title": "SnipVault",
+          "icon": "media/icon.svg"
+        }
+      ]
+    },
+    "views": {
+      "snipvault": [
+        {
+          "id": "snipvaultSidebar",
+          "name": "SnipVault"
+        }
+      ]
+    }
+  }
+}
+
