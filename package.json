@@ -1,13 +1,14 @@
 {
-  "name": "snipvault",
-  "displayName": "SnipVault",
+"name": "auravia-snips",
+"displayName": "Auravia Snips",
+
   "description": "Powerful local snippet manager with tags, search, and preview.",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "publisher": "auravia",
   
 "repository": {
   "type": "git",
-  "url": "https://github.com/auraviaco/snipvault"
+  "url": "https://github.com/auraviaco/snips.git"
 },
   "icon": "media/icon.jpeg",
 

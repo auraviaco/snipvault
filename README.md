@@ -1,7 +1,7 @@
 
-# SnipVault
+# Snips
 
-SnipVault is a powerful local snippet manager for developers.
+Snips is a powerful local snippet manager for developers.
 
 Save, insert, and manage reusable code snippets across all your VS Code projects.
 
@@ -42,6 +42,6 @@ They are available across all projects.
 
 Auraviaco
 =======
-# snipvault
+# snips
 SnipVault is a powerful global snippet manager for VS Code that lets developers save, organize, and instantly reuse code across all projects.
 
